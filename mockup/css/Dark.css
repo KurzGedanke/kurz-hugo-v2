@@ -1,15 +1,20 @@
+/* line 8, /Users/asgard/Developer/kurz-hugo-v2/mockup/scss/_dark.scss */
+select {
+  color: #FDFFFC;
+}
+
 /* line 3, /Users/asgard/Developer/kurz-hugo-v2/mockup/scss/Dark.scss */
 body {
   font-family: Georgia, 'Times New Roman', Times, serif;
-  background-color: #0a000a;
-  color: #d495df;
+  background-color: #020100;
+  color: #FDFFFC;
 }
 
 /* line 9, /Users/asgard/Developer/kurz-hugo-v2/mockup/scss/Dark.scss */
 a {
   margin-left: 0.15rem;
   margin-right: 0.15rem;
-  color: #07e4b3;
+  color: #507B8E;
   font-weight: bold;
 }
 

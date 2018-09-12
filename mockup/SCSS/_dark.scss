@@ -1,6 +1,10 @@
 $font-stack: Georgia, 'Times New Roman', Times, serif;
-$white-bg: #0a000a;
-$blue-link: #07e4b3;
+$white-bg: #020100;
+$blue-link: #507B8E;
 $purple-link: #53375C;
 $gray-highlight: #2b90d9;
-$text-black: #d495df;
+$text-black: #FDFFFC;
+
+select {
+    color: $text-black;
+}
