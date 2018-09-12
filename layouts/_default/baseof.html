@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  {{ partial "head.html" .}}
+  <body onload="checkTheme()">
+    <div class="container">
+    {{ partial "header.html" . }}
+    <div class="wrapper">
+      {{ block "main" . }}
+      {{ end }}
+    </div>
+    {{ partial "footer.html" . }}
+</div>
+  </body>
+</html>

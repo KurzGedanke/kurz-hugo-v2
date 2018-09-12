@@ -1,0 +1,90 @@
+/* line 8, /Users/asgard/Developer/kurz-hugo-v2/mockup/scss/_dark.scss */
+select {
+  color: #FDFFFC;
+}
+
+/* line 3, /Users/asgard/Developer/kurz-hugo-v2/mockup/scss/Dark.scss */
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: #020100;
+  color: #FDFFFC;
+}
+
+/* line 9, /Users/asgard/Developer/kurz-hugo-v2/mockup/scss/Dark.scss */
+a {
+  margin-left: 0.15rem;
+  margin-right: 0.15rem;
+  color: #507B8E;
+  font-weight: bold;
+}
+
+/* line 16, /Users/asgard/Developer/kurz-hugo-v2/mockup/scss/Dark.scss */
+article {
+  margin: 5rem;
+}
+
+/* line 21, /Users/asgard/Developer/kurz-hugo-v2/mockup/scss/Dark.scss */
+.header {
+  text-align: center;
+}
+
+/* line 25, /Users/asgard/Developer/kurz-hugo-v2/mockup/scss/Dark.scss */
+.text-center {
+  text-align: center;
+}
+
+/* line 29, /Users/asgard/Developer/kurz-hugo-v2/mockup/scss/Dark.scss */
+.social {
+  text-align: center;
+}
+
+/* line 33, /Users/asgard/Developer/kurz-hugo-v2/mockup/scss/Dark.scss */
+.content {
+  font-size: 2rem;
+}
+
+/* line 37, /Users/asgard/Developer/kurz-hugo-v2/mockup/scss/Dark.scss */
+.paginator {
+  margin-top: 30px;
+  color: #53375C;
+}
+
+/* line 42, /Users/asgard/Developer/kurz-hugo-v2/mockup/scss/Dark.scss */
+.website-links {
+  margin: 5rem;
+}
+
+/* line 46, /Users/asgard/Developer/kurz-hugo-v2/mockup/scss/Dark.scss */
+.made-with {
+  margin: 3rem;
+}
+
+/* Larger than mobile screen */
+@media (min-width: 40rem) {
+  /* line 51, /Users/asgard/Developer/kurz-hugo-v2/mockup/scss/Dark.scss */
+  #head {
+    font-size: 7.0rem;
+  }
+  /* line 55, /Users/asgard/Developer/kurz-hugo-v2/mockup/scss/Dark.scss */
+  .content {
+    font-size: 2rem;
+  }
+}
+
+/* Larger than tablet screen */
+@media (min-width: 80rem) {
+  /* line 62, /Users/asgard/Developer/kurz-hugo-v2/mockup/scss/Dark.scss */
+  #head {
+    font-size: 10.0rem;
+  }
+}
+
+/* Larger than desktop screen */
+@media (min-width: 120rem) {
+  /* line 69, /Users/asgard/Developer/kurz-hugo-v2/mockup/scss/Dark.scss */
+  #head {
+    font-size: 15.0rem;
+  }
+}
+
+/*# sourceMappingURL=../css/Dark.map */

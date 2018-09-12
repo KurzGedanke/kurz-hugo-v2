@@ -1,0 +1,21 @@
+# theme.toml template for a Hugo theme
+# See https://github.com/gohugoio/hugoThemes#themetoml for an example
+
+name = "Kurz Hugo"
+license = "BSD-3"
+licenselink = "https://github.com/KurzGedanke/kurz-hugo/blob/master/LICENSE"
+description = "My personal GoHugo Theme."
+homepage = "https://kurzgedanke.me/"
+tags = ["personal", "bootstrap"]
+features = []
+min_version = "0.30.2"
+
+[author]
+  name = "KurzGedanke"
+  homepage = "https://github.com/KurzGedanke/kurz-hugo"
+
+# If porting an existing theme
+[original]
+  name = ""
+  homepage = ""
+  repo = ""
