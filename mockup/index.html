@@ -6,14 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>KurzGedanke</title>
-    <!-- Framework-->
+    <!-- Javascript-->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="js/stylechanger.js"></script>
+    <!--CSS-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.3.0/milligram.css" integrity="sha256-7LuOHbsBImoaCHWzjqQDLeGK9kq/rZZqIr6Gtkz0WzI="
         crossorigin="anonymous" />
-
-    <link rel="stylesheet" href="css/style.css" />
+    <link id="theme" rel="stylesheet" type="text/css" href="">
 </head>
 
-<body>
+<body onload="checkTheme()">
     <div class="container">
         <!--Header-->
         <div class="row-center">
@@ -103,7 +106,14 @@
                 </div>
                 <!--Theme Switcher-->
                 <div class="theme-switcher text-center">
-                    <button>Theme Switcher</button>
+                    <div class="input-group form-inline">
+                        <select class="custom-select" id="theme-selected" onchange="switchTheme()">
+                            <option value="Light">Light</option>
+                            <option value="Dark">Dark</option>
+                            <option value="Light-OpenDyslexic">Light-OpenDyslexic</option>
+                            <option value="Dark-OpenDyslexic">Dark-OpenDyslexic</option>
+                        </select>
+                    </div>
                 </div>
                 <!--Made with-->
                 <div class="made-with text-center">
