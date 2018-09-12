@@ -1,0 +1,79 @@
+/* line 3, /Users/asgard/Desktop/kurz-hugo-v2/mockup/scss/style.scss */
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: #FDFFFC;
+  color: #020100;
+}
+
+/* line 9, /Users/asgard/Desktop/kurz-hugo-v2/mockup/scss/style.scss */
+a {
+  margin-left: 0.15rem;
+  margin-right: 0.15rem;
+  color: #507B8E;
+  font-weight: bold;
+}
+
+/* line 16, /Users/asgard/Desktop/kurz-hugo-v2/mockup/scss/style.scss */
+article {
+  margin: 5rem;
+}
+
+/* line 21, /Users/asgard/Desktop/kurz-hugo-v2/mockup/scss/style.scss */
+.header {
+  text-align: center;
+}
+
+/* line 25, /Users/asgard/Desktop/kurz-hugo-v2/mockup/scss/style.scss */
+.text-center {
+  text-align: center;
+}
+
+/* line 29, /Users/asgard/Desktop/kurz-hugo-v2/mockup/scss/style.scss */
+.social {
+  text-align: center;
+}
+
+/* line 33, /Users/asgard/Desktop/kurz-hugo-v2/mockup/scss/style.scss */
+.content {
+  font-size: 2rem;
+}
+
+/* line 37, /Users/asgard/Desktop/kurz-hugo-v2/mockup/scss/style.scss */
+.website-links {
+  margin: 5rem;
+}
+
+/* line 41, /Users/asgard/Desktop/kurz-hugo-v2/mockup/scss/style.scss */
+.made-with {
+  margin-bottom: 3rem;
+}
+
+/* Larger than mobile screen */
+@media (min-width: 40rem) {
+  /* line 46, /Users/asgard/Desktop/kurz-hugo-v2/mockup/scss/style.scss */
+  #head {
+    font-size: 7.0rem;
+  }
+  /* line 50, /Users/asgard/Desktop/kurz-hugo-v2/mockup/scss/style.scss */
+  .content {
+    font-size: 2rem;
+  }
+}
+
+/* Larger than tablet screen */
+@media (min-width: 80rem) {
+  /* line 57, /Users/asgard/Desktop/kurz-hugo-v2/mockup/scss/style.scss */
+  #head {
+    font-size: 10.0rem;
+  }
+}
+
+/* Larger than desktop screen */
+@media (min-width: 120rem) {
+  /* line 64, /Users/asgard/Desktop/kurz-hugo-v2/mockup/scss/style.scss */
+  #head {
+    font-size: 15.0rem;
+  }
+}
+
+/*# sourceMappingURL=../css/style.map */

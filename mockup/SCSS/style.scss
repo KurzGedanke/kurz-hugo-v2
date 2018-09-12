@@ -1,0 +1,67 @@
+@import '_light.scss';
+
+body {
+    font-family: $font-stack;
+    background-color: $white-bg;
+    color: $text-black;
+}
+
+a {
+    margin-left: 0.15rem;
+    margin-right: 0.15rem;
+    color: $blue-link;
+    font-weight: bold;
+}
+
+article {
+    margin: 5rem;
+}
+
+
+.header {
+    text-align: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.social {
+    text-align: center;
+}
+
+.content {
+    font-size: 2rem;
+}
+
+.website-links {
+    margin: 5rem;
+}
+
+.made-with {
+    margin-bottom: 3rem;
+}
+/* Larger than mobile screen */
+@media (min-width: 40.0rem) {
+    #head {
+        font-size: 7.0rem;
+    }
+
+    .content {
+        font-size: 2rem;
+    }
+}
+
+/* Larger than tablet screen */
+@media (min-width: 80.0rem) {
+    #head {
+        font-size: 10.0rem;
+    }
+}
+
+/* Larger than desktop screen */
+@media (min-width: 120.0rem) {
+    #head {
+        font-size: 15.0rem;
+    }
+}
