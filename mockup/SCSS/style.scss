@@ -34,12 +34,17 @@ article {
     font-size: 2rem;
 }
 
+.paginator {
+    margin-top: 30px;
+    color: $purple-link;
+}
+
 .website-links {
     margin: 5rem;
 }
 
 .made-with {
-    margin-bottom: 3rem;
+    margin: 3rem;
 }
 /* Larger than mobile screen */
 @media (min-width: 40.0rem) {
