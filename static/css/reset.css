@@ -2,7 +2,7 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-/* line 6, /Users/asgard/Developer/kurz-hugo-v2/mockup/scss/reset.scss */
+/* line 6, /Users/asgard/Developer/dev-kurzgedanke.de/themes/kurz-hugo-v2/static/scss/reset.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -23,35 +23,35 @@ time, mark, audio, video {
 }
 
 /* HTML5 display-role reset for older browsers */
-/* line 27, /Users/asgard/Developer/kurz-hugo-v2/mockup/scss/reset.scss */
+/* line 27, /Users/asgard/Developer/dev-kurzgedanke.de/themes/kurz-hugo-v2/static/scss/reset.scss */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block;
 }
 
-/* line 31, /Users/asgard/Developer/kurz-hugo-v2/mockup/scss/reset.scss */
+/* line 31, /Users/asgard/Developer/dev-kurzgedanke.de/themes/kurz-hugo-v2/static/scss/reset.scss */
 body {
   line-height: 1;
 }
 
-/* line 34, /Users/asgard/Developer/kurz-hugo-v2/mockup/scss/reset.scss */
+/* line 34, /Users/asgard/Developer/dev-kurzgedanke.de/themes/kurz-hugo-v2/static/scss/reset.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 37, /Users/asgard/Developer/kurz-hugo-v2/mockup/scss/reset.scss */
+/* line 37, /Users/asgard/Developer/dev-kurzgedanke.de/themes/kurz-hugo-v2/static/scss/reset.scss */
 blockquote, q {
   quotes: none;
 }
 
-/* line 40, /Users/asgard/Developer/kurz-hugo-v2/mockup/scss/reset.scss */
+/* line 40, /Users/asgard/Developer/dev-kurzgedanke.de/themes/kurz-hugo-v2/static/scss/reset.scss */
 blockquote:before, blockquote:after,
 q:before, q:after {
   content: '';
   content: none;
 }
 
-/* line 45, /Users/asgard/Developer/kurz-hugo-v2/mockup/scss/reset.scss */
+/* line 45, /Users/asgard/Developer/dev-kurzgedanke.de/themes/kurz-hugo-v2/static/scss/reset.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;

@@ -1,11 +1,11 @@
-/* line 3, /Users/asgard/Developer/kurz-hugo-v2/mockup/scss/Light.scss */
+/* line 3, /Users/asgard/Developer/dev-kurzgedanke.de/themes/kurz-hugo-v2/static/scss/Light.scss */
 body {
   font-family: Georgia, 'Times New Roman', Times, serif;
   background-color: #FDFFFC;
   color: #020100;
 }
 
-/* line 9, /Users/asgard/Developer/kurz-hugo-v2/mockup/scss/Light.scss */
+/* line 9, /Users/asgard/Developer/dev-kurzgedanke.de/themes/kurz-hugo-v2/static/scss/Light.scss */
 a {
   margin-left: 0.15rem;
   margin-right: 0.15rem;
@@ -13,54 +13,54 @@ a {
   font-weight: bold;
 }
 
-/* line 16, /Users/asgard/Developer/kurz-hugo-v2/mockup/scss/Light.scss */
+/* line 16, /Users/asgard/Developer/dev-kurzgedanke.de/themes/kurz-hugo-v2/static/scss/Light.scss */
 article {
   margin: 5rem;
 }
 
-/* line 21, /Users/asgard/Developer/kurz-hugo-v2/mockup/scss/Light.scss */
+/* line 21, /Users/asgard/Developer/dev-kurzgedanke.de/themes/kurz-hugo-v2/static/scss/Light.scss */
 .header {
   text-align: center;
 }
 
-/* line 25, /Users/asgard/Developer/kurz-hugo-v2/mockup/scss/Light.scss */
+/* line 25, /Users/asgard/Developer/dev-kurzgedanke.de/themes/kurz-hugo-v2/static/scss/Light.scss */
 .text-center {
   text-align: center;
 }
 
-/* line 29, /Users/asgard/Developer/kurz-hugo-v2/mockup/scss/Light.scss */
+/* line 29, /Users/asgard/Developer/dev-kurzgedanke.de/themes/kurz-hugo-v2/static/scss/Light.scss */
 .social {
   text-align: center;
 }
 
-/* line 33, /Users/asgard/Developer/kurz-hugo-v2/mockup/scss/Light.scss */
+/* line 33, /Users/asgard/Developer/dev-kurzgedanke.de/themes/kurz-hugo-v2/static/scss/Light.scss */
 .content {
   font-size: 2rem;
 }
 
-/* line 37, /Users/asgard/Developer/kurz-hugo-v2/mockup/scss/Light.scss */
+/* line 37, /Users/asgard/Developer/dev-kurzgedanke.de/themes/kurz-hugo-v2/static/scss/Light.scss */
 .paginator {
   margin-top: 30px;
   color: #53375C;
 }
 
-/* line 42, /Users/asgard/Developer/kurz-hugo-v2/mockup/scss/Light.scss */
+/* line 42, /Users/asgard/Developer/dev-kurzgedanke.de/themes/kurz-hugo-v2/static/scss/Light.scss */
 .website-links {
   margin: 5rem;
 }
 
-/* line 46, /Users/asgard/Developer/kurz-hugo-v2/mockup/scss/Light.scss */
+/* line 46, /Users/asgard/Developer/dev-kurzgedanke.de/themes/kurz-hugo-v2/static/scss/Light.scss */
 .made-with {
   margin: 3rem;
 }
 
 /* Larger than mobile screen */
 @media (min-width: 40rem) {
-  /* line 51, /Users/asgard/Developer/kurz-hugo-v2/mockup/scss/Light.scss */
+  /* line 51, /Users/asgard/Developer/dev-kurzgedanke.de/themes/kurz-hugo-v2/static/scss/Light.scss */
   #head {
     font-size: 7.0rem;
   }
-  /* line 55, /Users/asgard/Developer/kurz-hugo-v2/mockup/scss/Light.scss */
+  /* line 55, /Users/asgard/Developer/dev-kurzgedanke.de/themes/kurz-hugo-v2/static/scss/Light.scss */
   .content {
     font-size: 2rem;
   }
@@ -68,7 +68,7 @@ article {
 
 /* Larger than tablet screen */
 @media (min-width: 80rem) {
-  /* line 62, /Users/asgard/Developer/kurz-hugo-v2/mockup/scss/Light.scss */
+  /* line 62, /Users/asgard/Developer/dev-kurzgedanke.de/themes/kurz-hugo-v2/static/scss/Light.scss */
   #head {
     font-size: 10.0rem;
   }
@@ -76,7 +76,7 @@ article {
 
 /* Larger than desktop screen */
 @media (min-width: 120rem) {
-  /* line 69, /Users/asgard/Developer/kurz-hugo-v2/mockup/scss/Light.scss */
+  /* line 69, /Users/asgard/Developer/dev-kurzgedanke.de/themes/kurz-hugo-v2/static/scss/Light.scss */
   #head {
     font-size: 15.0rem;
   }
