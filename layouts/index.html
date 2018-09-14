@@ -1,6 +1,6 @@
 {{ define "main" }}
 <div class="articles">
-    {{ $pag := .Paginate (where .Data.Pages "Type" "blog") }}
+    {{ $pag := .Paginate (where .Data.Pages "Type" "post") }}
     {{ range $pag.Pages }}
     <div class="row article">
         <!--Date-->
@@ -20,5 +20,6 @@
     </div>
     <hr>
     {{ end }}
+    {{ partial "paginator.html" . }}
 </div>
 {{ end }}
