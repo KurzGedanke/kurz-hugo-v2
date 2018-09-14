@@ -8,3 +8,9 @@ $text-black: #d495df;
 select {
     color: $text-black;
 }
+
+head {
+    a {
+        color: $text-black
+    }
+}

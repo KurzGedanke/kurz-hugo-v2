@@ -1,7 +1,7 @@
 <div class="row-center">
     <div class="header column column-80 text-center">
         <div class="headerline">
-            <h1 id="head">KurzGedanke</h1>
+            <h1 id="head"><a href="{{ .Site.BaseURL }}">KurzGedanke</a></h1>
         </div>
     </div>
 </div>
@@ -9,34 +9,34 @@
 <div class="row-center">
     <div class="social column column-80 text-center">
         {{ with .Param "mastodon" }}
-        <span><a href="{{ . }}">Mastodon</a></span>
+        <span><a href="{{ . }}" target="_blank">Mastodon</a></span>
         {{ end }}
         {{ with .Param "twitter" }}
-        <span><a href="{{ . }}">Twitter</a></span>
+        <span><a href="{{ . }}" target="_blank">Twitter</a></span>
         {{ end }}
         {{ with .Param "youtube" }}
-        <span><a href="{{ . }}">YouTube</a></span>
+        <span><a href="{{ . }}" target="_blank">YouTube</a></span>
         {{ end }}
         {{ with .Param "reddit" }}
-        <span><a href="{{ . }}">Reddit</a></span>
+        <span><a href="{{ . }}" target="_blank">Reddit</a></span>
         {{ end }}
         {{ with .Param "github" }}
-        <span><a href="{{ . }}">GitHub</a></span>
+        <span><a href="{{ . }}" target="_blank">GitHub</a></span>
         {{ end }}
         {{ with .Param "Gitlab" }}
-        <span><a href="{{ . }}">Gitlab</a></span>
+        <span><a href="{{ . }}" target="_blank">Gitlab</a></span>
         {{ end }}
         {{ with .Param "email" }}
-        <span><a href="{{ . }}">Email</a></span>
+        <span><a href="{{ . }}" target="_blank">Email</a></span>
         {{ end }}
         {{ with .Param "pgp" }}
-        <span><a href="{{ . }}">(PGP)</a></span>
+        <span><a href="{{ . }}" target="_blank">(PGP)</a></span>
         {{ end }}
         {{ with .Param "donate" }}
-        <span><a href="{{ . }}">Donate</a></span>
+        <span><a href="{{ . }}" target="_blank">Donate</a></span>
         {{ end }}
         {{ with .Param "rss" }}
-        <span><a href="{{ . }}">RSS</a></span>
+        <span><a href="{{ . }}" target="_blank">RSS</a></span>
         {{ end }}
     </div>
 </div>

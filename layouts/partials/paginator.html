@@ -1,0 +1,15 @@
+{{ if or (.Paginator.HasPrev) (.Paginator.HasNext) }}
+<div class="col-md-12">
+  <div class="pager">
+    {{ if .Paginator.HasPrev }}
+    <div class="previous">
+      <a class="btn btn-primary" role="button" href="{{ .URL }}page/{{ .Paginator.Prev.PageNumber }}">Newer Posts</a>
+    </div>
+    {{ end }} {{ if .Paginator.HasNext }}
+    <div class="next">
+      <a class="btn btn-primary btn" role="button" href="{{ .URL }}page/{{ .Paginator.Next.PageNumber }}">Older Posts</a>
+    </div>
+    {{ end }}
+  </div>
+</div>
+{{ end }}

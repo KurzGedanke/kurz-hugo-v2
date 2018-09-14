@@ -1,0 +1,21 @@
+{{ define "main" }}
+<div class="container">
+    <div class="wrapper">
+        <div class="row">
+            <article class="column column-90">
+                <time class="date" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
+                    <span>{{- .Date.Format "January 2, 2006" -}}</span>
+                </time>
+                <!--Title-->
+                <div class="title">
+                    <h1><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
+                </div>
+                <!--Content-->
+                <div class="content">
+                    {{ .Content }}
+                </div>
+            </article>
+        </div>
+    </div>
+</div>
+{{ end }}

@@ -6,6 +6,12 @@ body {
     color: $text-black;
 }
 
+#head {
+    h1 {
+        color: $text-black
+    }
+}
+
 a {
     margin-left: 0.15rem;
     margin-right: 0.15rem;

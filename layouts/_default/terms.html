@@ -1,0 +1,21 @@
+{{ define "main" }}
+{{ $data := .Data }}
+<div class="container">
+    <div class="row">
+        <div class="column">
+            <article>
+                <h2 class="title text-center">Tags</h2>
+                <ul class="text-center">
+                    {{ range $key, $value := .Data.Terms.ByCount }}
+                    <li>
+                        <a href="{{ $.Site.LanguagePrefix | absURL }}{{ $data.Plural }}/{{ $value.Name | urlize }}/" id="{{ $value.Name }}">
+                            {{ $value.Name }}<span class="badge"> {{ $value.Count }}</span>
+                        </a>
+                    </li>
+                    {{ end }}
+                </ul>
+            </article>
+        </div>
+    </div>
+</div>
+{{ end }}

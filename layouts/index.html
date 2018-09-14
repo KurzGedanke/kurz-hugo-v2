@@ -2,7 +2,7 @@
 <div class="articles">
     {{ $pag := .Paginate (where .Data.Pages "Type" "blog") }}
     {{ range $pag.Pages }}
-    <div class="row">
+    <div class="row article">
         <!--Date-->
         <article class="column column-90">
             <time class="date" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
@@ -17,8 +17,8 @@
                 {{ .Content }}
             </div>
         </article>
-        <hr>
     </div>
+    <hr>
     {{ end }}
 </div>
 {{ end }}
