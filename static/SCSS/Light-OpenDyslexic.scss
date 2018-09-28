@@ -1,7 +1,7 @@
-@import '_dark.scss';
+@import '_light.scss';
 
 body {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'opendyslexic';
     background-color: $white-bg;
     color: $text-black;
 }
@@ -38,10 +38,6 @@ hr {
 
 .content {
     font-size: 2rem;
-    code {
-        color: $white-bg;
-    }
-    
 }
 
 .paginator {
@@ -78,6 +74,11 @@ hr {
 @media (min-width: 80.0rem) {
     #head {
         font-size: 10.0rem;
+    }
+
+    article {
+        margin-left: 40rem;
+        // margin-right: 40rem;
     }
 }
 

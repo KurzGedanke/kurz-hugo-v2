@@ -2,11 +2,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    {{ if .Site.Params.description }}
+    <meta name="description" content="{{.Site.Params.description | safeHTML}}">
+    {{ end }}
+    {{ if .Site.Params.keywords }}
+    <meta name="keywords" content="{{.Site.Params.keywords | safeHTML}}">
+    {{ end }}
+    {{ if .Site.Params.author }}
+    <meta name="author" content="{{.Site.Params.author | safeHTML}}">
+    {{ end }}
     <title>{{ block "title" . }}{{ .Site.Title }} {{ with .Params.Title }} | {{ . }}{{ end }}{{ end }}</title>
     <!-- Javascript-->
     <script src="{{ .Site.BaseURL }}js/jquery.js"></script>
     <script src="{{ .Site.BaseURL }}js/stylechanger.js"></script>
     <!--CSS-->
+    <link rel="stylesheet" href="{{ .Site.BaseURL }}css/open-dyslexic.css">
     <link rel="stylesheet" href="{{ .Site.BaseURL }}css/normalize.css"/>
     <link rel="stylesheet" href="{{ .Site.BaseURL }}css/milligram.min.css"/>
     <link id="theme" rel="stylesheet" type="text/css" href="">

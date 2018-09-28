@@ -1,0 +1,32 @@
+@font-face {
+  font-family: 'opendyslexic';
+  src: url("https://dyslexicfonts.com/fonts/OpenDyslexic-Regular.otf");
+  font-style: normal;
+  font-weight: normal
+}
+
+@font-face {
+  font-family: 'opendyslexic';
+  src: url("https://dyslexicfonts.com/fonts/OpenDyslexic-Italic.ttf");
+  font-style: italic;
+  font-weight: normal
+}
+
+@font-face {
+  font-family: 'opendyslexic';
+  src: url("https://dyslexicfonts.com/fonts/OpenDyslexic-Bold.ttf");
+  font-weight: bold;
+  font-style: normal
+}
+
+@font-face {
+  font-family: 'opendyslexic';
+  src: url("https://dyslexicfonts.com/fonts/OpenDyslexic-BoldItalic.ttf");
+  font-weight: bold;
+  font-style: italic
+}
+
+@font-face {
+  font-family: eulexia;
+  src: url("https://dyslexicfonts.com/fonts/eulexia.ttf")
+}

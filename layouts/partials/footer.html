@@ -2,10 +2,24 @@
     <!--Footer-->
     <footer class="column">
         <div class="website-links text-center">
-            <span><a href="{{ .Site.BaseURL }}tags">Tags</a></span>
-            <span><a href="{{ .Site.BaseURL }}tutorials">Tutorials</a></span>
-            <span><a href="{{ .Site.BaseURL }}blog">Blog</a></span>
-            <span><a href="{{ .Site.BaseURL }}about-me">About Me</a></span>
+            {{ with .Param "tags" }}
+            <span><a href="{{ . }}">Tags</a></span>
+            {{ end }}
+            {{ with .Param "tutorials" }}
+            <span><a href="{{ . }}">Tutorials</a></span>
+            {{ end }}
+            {{ with .Param "blog" }}
+            <span><a href="{{ . }}">Blog</a></span>
+            {{ end }}
+            {{ with .Param "aboutme" }}
+            <span><a href="{{ . }}">About Me</a></span>
+            {{ end }}
+            {{ with .Param "impressum" }}
+            <span><a href="{{ . }}">Impressum</a></span>
+            {{ end }}
+            {{ with .Param "Datenschutz" }}
+            <span><a href="{{ . }}">Datenschutz</a></span>
+            {{ end }}
         </div>
         <!--Theme Switcher-->
         <div class="theme-switcher text-center">

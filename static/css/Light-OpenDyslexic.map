@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "../scss/Light-OpenDyslexic.css",
+	"sources": [
+		"../scss/Light-OpenDyslexic.scss",
+		"../scss/_light.scss"
+	],
+	"sourcesContent": [
+		"@import '_light.scss';\n\nbody {\n    font-family: 'opendyslexic';\n    background-color: $white-bg;\n    color: $text-black;\n}\n\na {\n    margin-left: 0.15rem;\n    margin-right: 0.15rem;\n    color: $blue-link;\n    font-weight: bold;\n}\n\narticle {\n    margin: 5rem;\n}\n\nhr {\n    border: 0;\n    height: 1px;\n    background: #333;\n    background-image: linear-gradient(to right, #ccc, #333, #ccc);\n}\n\n.header {\n    text-align: center;\n}\n\n.text-center {\n    text-align: center;\n}\n\n.social {\n    text-align: center;\n}\n\n.content {\n    font-size: 2rem;\n}\n\n.paginator {\n    margin-top: 30px;\n    color: $purple-link;\n}\n\n.website-links {\n    margin: 5rem;\n}\n\n.made-with {\n    margin: 3rem;\n}\n\n#head {\n    a {\n        color: $text-black\n    }\n}\n\n/* Larger than mobile screen */\n@media (min-width: 40.0rem) {\n    #head {\n        font-size: 7.0rem;\n    }\n\n    .content {\n        font-size: 2rem;\n    }\n}\n\n/* Larger than tablet screen */\n@media (min-width: 80.0rem) {\n    #head {\n        font-size: 10.0rem;\n    }\n\n    article {\n        margin-left: 40rem;\n        // margin-right: 40rem;\n    }\n}\n\n/* Larger than desktop screen */\n@media (min-width: 120.0rem) {\n    #head {\n        font-size: 15.0rem;\n    }\n}",
+		"$font-stack: Georgia, 'Times New Roman', Times, serif;\n$white-bg: #FDFFFC;\n$blue-link: #507B8E;\n$purple-link: #53375C;\n$gray-highlight: #46494C;\n$text-black: #020100;"
+	],
+	"mappings": ";AAEA,AAAA,IAAI,CAAC;EACD,WAAW,EAAE,cAAe;EAC5B,gBAAgB,ECHT,OAAO;EDId,KAAK,ECAI,OAAO;CDCnB;;;AAED,AAAA,CAAC,CAAC;EACE,WAAW,EAAE,OAAQ;EACrB,YAAY,EAAE,OAAQ;EACtB,KAAK,ECTG,OAAO;EDUf,WAAW,EAAE,IAAK;CACrB;;;AAED,AAAA,OAAO,CAAC;EACJ,MAAM,EAAE,IAAK;CAChB;;;AAED,AAAA,EAAE,CAAC;EACC,MAAM,EAAE,CAAE;EACV,MAAM,EAAE,GAAI;EACZ,UAAU,EAAE,IAAK;EACjB,gBAAgB,EAAE,2CAAe;CACpC;;;AAED,AAAA,OAAO,CAAC;EACJ,UAAU,EAAE,MAAO;CACtB;;;AAED,AAAA,YAAY,CAAC;EACT,UAAU,EAAE,MAAO;CACtB;;;AAED,AAAA,OAAO,CAAC;EACJ,UAAU,EAAE,MAAO;CACtB;;;AAED,AAAA,QAAQ,CAAC;EACL,SAAS,EAAE,IAAK;CACnB;;;AAED,AAAA,UAAU,CAAC;EACP,UAAU,EAAE,IAAK;EACjB,KAAK,ECzCK,OAAO;CD0CpB;;;AAED,AAAA,cAAc,CAAC;EACX,MAAM,EAAE,IAAK;CAChB;;;AAED,AAAA,UAAU,CAAC;EACP,MAAM,EAAE,IAAK;CAChB;;;AAED,AACI,KADC,CACD,CAAC,CAAC;EACE,KAAK,ECpDA,OAAO;CDqDf;;AAGL,+BAA+B;AAC/B,MAAM,EAAL,SAAS,EAAE,KAAK;;EACb,AAAA,KAAK,CAAC;IACF,SAAS,EAAE,MAAO;GACrB;;EAED,AAAA,QAAQ,CAAC;IACL,SAAS,EAAE,IAAK;GACnB;;;AAGL,+BAA+B;AAC/B,MAAM,EAAL,SAAS,EAAE,KAAK;;EACb,AAAA,KAAK,CAAC;IACF,SAAS,EAAE,OAAQ;GACtB;;EAED,AAAA,OAAO,CAAC;IACJ,WAAW,EAAE,KAAM;GAEtB;;;AAGL,gCAAgC;AAChC,MAAM,EAAL,SAAS,EAAE,MAAM;;EACd,AAAA,KAAK,CAAC;IACF,SAAS,EAAE,OAAQ;GACtB",
+	"names": []
+}

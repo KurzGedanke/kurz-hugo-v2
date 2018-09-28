@@ -17,6 +17,9 @@
         {{ with .Param "youtube" }}
         <span><a href="{{ . }}" target="_blank">YouTube</a></span>
         {{ end }}
+        {{ with .Param "twitch" }}
+        <span><a href="{{ . }}" target="_blank">Twitch</a></span>
+        {{ end }}
         {{ with .Param "reddit" }}
         <span><a href="{{ . }}" target="_blank">Reddit</a></span>
         {{ end }}

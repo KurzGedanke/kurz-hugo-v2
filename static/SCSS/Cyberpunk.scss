@@ -38,6 +38,10 @@ hr {
 
 .content {
     font-size: 2rem;
+    code {
+        color: $white-bg;
+    }
+    
 }
 
 .paginator {

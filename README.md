@@ -2,6 +2,14 @@
 
 This is my personal hugo theme which is still in development.
 
+## Installation
+
+Copy the theme into your goHugo Theme folder with
+
+```bash
+git clone https://github.com/KurzGedanke/kurz-hugo-v2.git
+```
+
 ## License Kurz Hugo v2
 
 Copyright 2018 KurzGedanke (Thore Jahn)

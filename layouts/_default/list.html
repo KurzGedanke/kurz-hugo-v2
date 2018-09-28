@@ -1,10 +1,9 @@
 {{ define "main" }}
 <div class="articles">
-    {{ $pag := .Paginate (where .Data.Pages "Type" "post") }}
-    {{ range $pag.Pages }}
+    {{ range .Paginator.Pages }}
     <div class="row article">
         <!--Date-->
-        <article class="column column-center">
+        <article class="column column-90">
             <time class="date" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
                 <span>{{- .Date.Format "January 2, 2006" -}}</span>
             </time>
@@ -14,10 +13,11 @@
             </div>
             <!--Content-->
             <div class="content">
-                {{ .Content }}
+                {{ .Summary }}
             </div>
         </article>
     </div>
+    <a href="{{ .Permalink }}">[READ MORE]</a>
     <hr>
     {{ end }}
     {{ partial "paginator.html" . }}
