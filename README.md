@@ -8,6 +8,8 @@
 
 A clean and simple [goHugo](https://gohugo.io) Theme I wrote for myself. It is licensed under an MIT License and should provide a simple, clean and fast reading expiernce.
 
+![A screenshot of the kurz-hugo-v2 theme](https://kurzgedanke.me/img/redesign_von_kurzgedanke/kurzgedanke_dot_me.jpg)
+
 ## Installation
 
 Copy the theme in your theme folder.
