@@ -11,6 +11,8 @@ a {
     margin-right: 0.15rem;
     color: $blue-link;
     font-weight: bold;
+    word-wrap: break-word;
+    overflow: hidden;
 }
 
 article {
